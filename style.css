@@ -1,0 +1,76 @@
+body {
+  /*essa fonte eu peguei no Google fontes. Tem que colocar o link no HTML e esse font-family aqui.*/
+  font-family: 'Kiwi Maru', serif;
+  background-image: url('https://exame.com/wp-content/uploads/2020/01/amazonia.jpg');
+  background-size: cover;
+}
+
+section {
+  /* procure pelo box-shadow generator no google para criar o seu */
+  -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59); 
+box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59); 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: #DA70D6;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+section h1 {
+  font-size: 22px;
+  font-family:  'Kiwi Maru', serif;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 18px;
+  font-family:  'Kiwi Maru', serif;
+  text-align: center;
+}
+
+section a {
+  font-size: 18px;
+  font-family:  'Kiwi Maru', serif;
+  text-align: center;
+}
+
+header {
+  background-image: url('https://i.pinimg.com/564x/4d/d3/d6/4dd3d6502a681da95b42dd08f67fdbe1.jpg');
+  background-size: cover;
+  height: 80px;
+  border-radius: 5px;
+}
+
+div {
+  margin: 15px;
+  border: 1px solid black;
+  padding: 15px;
+  background-color: #00FA9A;
+  border-radius: 5px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translatey(-50%);
+  border: 8px solid #DA70D6
+}
+
+ol li a{
+	text-decoration: none;
+	color: black;
+	transition: 0.2s ease;
+}
+
+a:hover{
+	font-size: 22px;
+	color: blueviolet;
+}
